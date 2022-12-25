@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaZhezhera/nodejs-hw01.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnnaZhezhera/nodejs-hw01/issues"
+  },
+  "homepage": "https://github.com/AnnaZhezhera/nodejs-hw01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4",
+    "yargs": "^17.6.2"
+  }
+}
